@@ -4,15 +4,15 @@
 }
 
 body {
-    background-color: #261D21;
+    background-color: #FDFBFF;
     display: flex;
     flex-direction: column;
-    height: 100vh;
-    width: 100vw;
+    height: 100%;
+    width: 100%;
 }
 
 .nav-menu {
-    background-color: #261D21;
+    background-color: #FDFBFF;
     height: 15vh;
     width: 100vw;
 }
@@ -31,18 +31,22 @@ body {
     gap: 2.5rem;
 }
 
-a:link {
-    color: #92ABB6;
+.nav-text {
+    color: #67151B;
+}
+
+.nav-text:link {
+    color: #595856;
     text-decoration: none;
 }
 
-a:hover {
+.nav-text:hover {
     color: orange;
     text-decoration: dashed;
 }
 
-a:active {
-    color: #92ABB6;
+.nav-text:active {
+    color: #595856;
 }
 
 #dados {
@@ -50,23 +54,147 @@ a:active {
     align-items: center;
     justify-content: center;
     width: 100vw;
-    height: 50vh;
+    height: 72vh;
 }
 
 #dados .content {
     width: 90%;
     height: 100%;
-    background-color: #EEE4AF;
+    background-color: #67151B;
     border-radius: 1rem;
     margin: auto auto;
     padding: 0;
 }
 
 #dados .content .profile {
-    background-color: #92ABB6;
-    width: 40%;
+    background-color: #161A1E;
+    width: 32vw;
     height: 100%;
     border-top-left-radius: 1rem;
     border-bottom-left-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+}
 
+#dados .content .profile .profile-photo {
+    height: 33%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#dados .content .profile .profile-photo .photo {
+    border-radius: 50%;
+    max-height: 125px;
+    max-width: 125px;
+    width: 125px;
+    height: 125px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-image: url(/Danichs.github.io/assets/imgs/Dan.jpg);
+    align-self: center;
+    margin: auto;
+}
+
+.solid {
+    border-top: 2px solid #FDFBFF;
+    width: 100%;
+    margin: auto auto;
+    box-sizing: border-box;
+}
+
+.icons {
+    color: #FDFBFF;
+}
+
+.icons:link {
+    color: #FDFBFF;
+}
+
+.icons:hover {
+    color: orange;
+}
+
+.icons:active {
+    color: #67151B;
+}
+
+#dados .content .profile .profile-dados {
+    display: flex;
+    flex-direction: column;
+    color: #FDFBFF;
+}
+
+#dados .content .profile .profile-dados .name {
+    margin: .05rem 1rem;
+    font-size: medium;
+}
+
+#dados .content .profile .profile-dados .age {
+    margin: .75rem 1rem;
+    font-size: small;
+}
+
+#dados .content .profile .profile-dados .social {
+    margin: .75rem 1rem;
+    display: flex;
+    flex-direction: row;
+    gap: .5rem;
+}
+
+#dados .content .profile .profile-dados .languages .prog {
+    margin: .5rem .5rem;
+    gap: .5rem;
+}
+
+#dados .content .profile .profile-dados .languages .prog-icons {
+    margin: 1rem .5rem;
+    width: 100%;
+    display: block;
+}
+
+.espaco {
+    width: 100%;
+    height: 7rem;
+}
+
+#projects {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 72vh;
+}
+
+#projects .content {
+    width: 90%;
+    height: 100%;
+    background-color: #67151B;
+    border-radius: 1rem;
+    margin: auto auto;
+    padding: 0;
+}
+
+
+#academic {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 72vh;
+}
+
+#academic .content {
+    width: 90%;
+    height: 100%;
+    background-color: #67151B;
+    border-radius: 1rem;
+    margin: auto auto;
+    padding: 0;
+}
+
+.rights {
+    align-self: center;
 }
