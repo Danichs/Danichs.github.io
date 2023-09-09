@@ -1,0 +1,25 @@
+h1 {
+    color: black;
+    text-align: center;
+    font-size: 50px;
+}
+body {
+    background-color: #f3f6fc;
+}
+
+.barra {
+    width: 0;
+    height: 20px;
+    background-color: red;
+    border-radius: 1rem;
+    animation: progresso 3s ease-in-out forwards;
+}
+
+@keyframes progresso {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 100%;
+    }
+}
