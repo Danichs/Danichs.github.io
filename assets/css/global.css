@@ -93,7 +93,7 @@ body {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    background-image: url(/Danichs.github.io/assets/imgs/Dan.jpg);
+    background-image: url(./assets/imgs/Dan.jpg);
     align-self: center;
     margin: auto;
 }
